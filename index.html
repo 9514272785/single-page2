@@ -1,428 +1,411 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShopLane</title>
-    <link rel="stylesheet" href="new.css">
+    <title>SHOPLANE | Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header -->
-    <header class="header">
+    <div class="top-message">
+        <p>FREE SHIPPING ON ORDERS ABOVE ₹999</p>
+        <p>NEW SEASON COLLECTION IS HERE</p>
+    </div>
 
-        <div class="logo">
-            SHOPLANE
-        </div>
+    <header class="header">
+        <a href="#" class="logo">SHOP<span>LANE.</span></a>
 
         <nav class="nav">
-            <a href="#">CLOTHING</a>
-            <a href="#">ACCESSORIES</a>
+            <a href="#home">Home</a>
+            <a href="#men">Men</a>
+            <a href="#women">Women</a>
+            <a href="#accessories">Accessories</a>
+            <a href="#about">About</a>
         </nav>
 
-        <div class="search-box">
-            <span>Search for Clothing and Accessories</span>
+        <div class="header-actions">
+            <a href="#products" class="search-icon">⌕</a>
+            <a href="#newsletter" class="cart-icon">Bag <span>0</span></a>
         </div>
-
-        <div class="cart">
-            <span>0</span>
-        </div>
-
     </header>
 
-
-    <!-- Main Banner -->
-    <main>
-
-        <section class="banner">
-
-            <img
-                src="https://ecommerce-website-html-css.vercel.app/img/img4.png"
-                alt="Puma Men's Shirt Offer"
-                class="banner-image"
-            >
-          
-        </section>
-
-    </main>
-    <section class="products-section">
-
-        <h1>Clothing For Men And Women</h1>
-
-        <div class="product-container">
-
-            <!-- Product 1 -->
-            <div class="product-card">
-
-                <img
-                    src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg"
-                    alt="Men Navy Blue Solid Sweatshirt"
-                >
-
-                <div class="product-details">
-
-                    <h2>
-                        Men Navy Blue Solid
-                        <br>
-                        Sweatshirt
-                    </h2>
-
-                    <p class="brand">
-                        United Colors Of Benetton
-                    </p>
-
-                    <p class="price">
-                        Rs 2599
-                    </p>
-
-                </div>
-
+    <div class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-tag">NEW COLLECTION / 2026</p>
+            <h1>Style is a way<br>to <span>say who you are.</span></h1>
+            <p>Discover modern essentials, timeless outfits and everyday fashion made for your lifestyle.</p>
+            <div class="hero-buttons">
+                <a href="#men" class="shop-btn">SHOP MEN ↗</a>
+                <a href="#women" class="hero-link">EXPLORE COLLECTION</a>
             </div>
-
-
-            <!-- Product 2 -->
-            <div class="product-card">
-
-                <img
-                    src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg"
-                    alt="Men Black MAMGP T7 Sweat Sporty Jacket"
-                >
-
-                <div class="product-details">
-
-                    <h2>
-                        Men Black MAMGP T7 Sweat
-                        <br>
-                        Sporty Jacket
-                    </h2>
-
-                    <p class="brand">
-                        Puma
-                    </p>
-
-                    <p class="price">
-                        Rs 7999
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- Product 3 -->
-            <div class="product-card">
-
-                <img
-                    src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg"
-                    alt="Men Black Action Parkview Lifestyle Shoes"
-                >
-
-                <div class="product-details">
-
-                    <h2>
-                        Men Black Action Parkview
-                        <br>
-                        Lifestyle Shoes
-                    </h2>
-
-                    <p class="brand">
-                        Hush Puppies
-                    </p>
-
-                    <p class="price">
-                        Rs 6999
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- Product 4 -->
-            <div class="product-card">
-
-                <img
-                    src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673915-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-1.jpg"
-                    alt="Women Black Solid Lightweight Leather Jacket"
-                >
-
-                <div class="product-details">
-
-                    <h2>
-                        Women Black Solid
-                        <br>
-                        Lightweight Leather Jacket
-                    </h2>
-
-                    <p class="brand">
-                        BARESKIN
-                    </p>
-
-                    <p class="price">
-                        Rs 9999
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- Product 5 -->
-            <div class="product-card">
-
-                <img
-                    src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/5649908/2018/5/10/6bfe80cd-2f55-42bc-aa7f-e0d6c9e2ac531525936414747-SASSAFRAS-Women-Blue-Solid-Shirt-Dress-3831525936414532-1.jpg"
-                    alt="Women Blue Solid Shirt Dress"
-                >
-
-                <div class="product-details">
-
-                    <h2>
-                        Women Blue Solid Shirt
-                        <br>
-                        Dress
-                    </h2>
-
-                    <p class="brand">
-                        SASSAFRAS
-                    </p>
-
-                    <p class="price">
-                        Rs 5200
-                    </p>
-
-                </div>
-
-            </div>
-
         </div>
 
-    </section>
-
-
-    <section class="accessories-section">
-
-        <h1>Accessories For Men And Women</h1>
-
-        <div class="product-container">
-
-            <!-- Product 1 -->
-            <div class="product-card">
-
-                <div class="image-box">
-                    <img
-                        src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803247/2019/5/27/624dac60-4c42-4902-bba1-30a51cc7f43c1558948536543-Apple-Unisex-Smart-Watches-1441558948536225-1.jpg"
-                        alt="Unisex Silver-Toned Series 3 Smart Watch"
-                    >
-                </div>
-
-                <div class="product-details">
-
-                    <h2>
-                        Unisex Silver-Toned Series 3
-                        <br>
-                        Smart Watch
-                    </h2>
-
-                    <p class="brand">
-                        Apple
-                    </p>
-
-                    <p class="price">
-                        Rs 31999
-                    </p>
-
-                </div>
-
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1100&q=85" alt="Fashion model wearing modern outfit">
+            <div class="hero-image-label">
+                <span>01 / 04</span>
+                <p>THE NEW LOOK</p>
             </div>
-
-
-            <!-- Product 2 -->
-            <div class="product-card">
-
-                <div class="image-box">
-                    <img
-                        src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2019/2/23/dc05b5e5-aa82-493e-bf0b-0c309baf21021550920383101-1.jpg"
-                        alt="Unisex Black & Green Reflex 2.0 Smart Band"
-                    >
-                </div>
-
-                <div class="product-details">
-
-                    <h2>
-                        Unisex Black & Green Reflex 2.0
-                        <br>
-                        Smart Band
-                    </h2>
-
-                    <p class="brand">
-                        Fastrack
-                    </p>
-
-                    <p class="price">
-                        Rs 1999
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- Product 3 -->
-            <div class="product-card">
-
-                <div class="image-box">
-                    <img
-                        src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10122083/2019/6/24/e533a691-3908-41b0-8307-1928a37d4ec41561362162650-Samsung-Galaxy-Fit-4801561362161527-1.jpg"
-                        alt="Unisex Black Galaxy Fit Fitness Band"
-                    >
-                </div>
-
-                <div class="product-details">
-
-                    <h2>
-                        Unisex Black Galaxy Fit Fitness
-                        <br>
-                        Band
-                    </h2>
-
-                    <p class="brand">
-                        Samsung
-                    </p>
-
-                    <p class="price">
-                        Rs 9990
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- Product 4 -->
-            <div class="product-card">
-
-                <div class="image-box">
-                    <img
-                        src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8593217/2019/4/9/de2c21f3-6731-4c29-9369-692a486a1b8c1554802772926-Samsung-Gear-IconX-Black-Cord-free-Fitness-Earbuds-256155480-1.jpg"
-                        alt="Gear IconX Black Cord-Free Fitness Earbuds"
-                    >
-                </div>
-
-                <div class="product-details">
-
-                    <h2>
-                        Gear IconX Black Cord-Free
-                        <br>
-                        Fitness Earbuds
-                    </h2>
-
-                    <p class="brand">
-                        Samsung
-                    </p>
-
-                    <p class="price">
-                        Rs 13990
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- Product 5 -->
-            <div class="product-card">
-
-                <div class="image-box">
-
-                    <img
-                        src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803279/2019/5/27/6661d579-12ae-456b-b8f2-e78e5256a99c1558948436173-Apple-AirPods-with-Charging-Case-2nd-Gen-White-3831558948435-1.jpg"
-                        alt="White 2nd Gen AirPods With Charging Case"
-                    >
-
-                </div>
-
-                <div class="product-details">
-
-                    <h2>
-                        White 2nd Gen AirPods With
-                        <br>
-                        Charging Case
-                    </h2>
-
-                    <p class="brand">
-                        Apple
-                    </p>
-
-                    <p class="price">
-                        Rs 14999
-                    </p>
-
-                </div>
-
-            </div>
-
         </div>
 
-    </section>
+        <div class="hero-bottom">
+            <span>EVERYDAY STYLE</span>
+            <span>CONFIDENCE IN EVERY FIT</span>
+            <span>SHOPLANE 2026</span>
+        </div>
+    </div>
 
-  <footer class="footer">
+    <div class="benefits">
+        <div class="benefit">
+            <span>✦</span>
+            <div>
+                <h3>Premium Quality</h3>
+                <p>Carefully selected fabrics</p>
+            </div>
+        </div>
 
+        <div class="benefit">
+            <span>↗</span>
+            <div>
+                <h3>Easy Shopping</h3>
+                <p>Simple shopping experience</p>
+            </div>
+        </div>
+
+        <div class="benefit">
+            <span>♧</span>
+            <div>
+                <h3>Secure Payments</h3>
+                <p>Safe checkout experience</p>
+            </div>
+        </div>
+
+        <div class="benefit">
+            <span>♡</span>
+            <div>
+                <h3>Customer Support</h3>
+                <p>Here to help you</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories section-padding">
+        <div class="section-heading">
+            <div>
+                <p class="section-tag">EXPLORE YOUR STYLE</p>
+                <h2>Shop by <span>category.</span></h2>
+            </div>
+            <p>Find your style. Build your wardrobe.<br>Make every outfit count.</p>
+        </div>
+
+        <div class="category-container">
+            <a href="#men" class="category-card">
+                <img src="https://images.unsplash.com/photo-1516826957135-700dedea698c?auto=format&fit=crop&w=900&q=85" alt="Men's fashion">
+                <div class="category-info">
+                    <p>01 / COLLECTION</p>
+                    <h3>Men's Wear</h3>
+                    <span>EXPLORE ↗</span>
+                </div>
+            </a>
+
+            <a href="#women" class="category-card">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=85" alt="Women's fashion">
+                <div class="category-info">
+                    <p>02 / COLLECTION</p>
+                    <h3>Women's Wear</h3>
+                    <span>EXPLORE ↗</span>
+                </div>
+            </a>
+
+            <a href="#accessories" class="category-card">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=85" alt="Fashion accessories">
+                <div class="category-info">
+                    <p>03 / COLLECTION</p>
+                    <h3>Accessories</h3>
+                    <span>EXPLORE ↗</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="products-section section-padding" id="men">
+        <div class="section-heading">
+            <div>
+                <p class="section-tag">01 — MEN'S COLLECTION</p>
+                <h2>Made for <span>your style.</span></h2>
+            </div>
+            <a href="#newsletter" class="view-all">VIEW ALL ↗</a>
+        </div>
+
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="product-label">BESTSELLER</span>
+                    <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=800&q=85" alt="Men's black t-shirt">
+                    <button class="quick-btn">QUICK VIEW ↗</button>
+                </div>
+                <div class="product-details">
+                    <p class="brand">SHOPLANE ESSENTIALS</p>
+                    <h3>Classic Black T-Shirt</h3>
+                    <div class="product-bottom">
+                        <p class="price">₹799 <del>₹1,099</del></p>
+                        <span>★ 4.8</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="product-label">NEW</span>
+                    <img src="https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=800&q=85" alt="Men's casual shirt">
+                    <button class="quick-btn">QUICK VIEW ↗</button>
+                </div>
+                <div class="product-details">
+                    <p class="brand">URBAN COLLECTION</p>
+                    <h3>Casual Cotton Shirt</h3>
+                    <div class="product-bottom">
+                        <p class="price">₹1,299 <del>₹1,699</del></p>
+                        <span>★ 4.7</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="product-label">POPULAR</span>
+                    <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=800&q=85" alt="Men's denim jeans">
+                    <button class="quick-btn">QUICK VIEW ↗</button>
+                </div>
+                <div class="product-details">
+                    <p class="brand">DENIM SERIES</p>
+                    <h3>Classic Blue Denim</h3>
+                    <div class="product-bottom">
+                        <p class="price">₹1,499 <del>₹1,999</del></p>
+                        <span>★ 4.9</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1618354691229-88d47f285158?auto=format&fit=crop&w=800&q=85" alt="Men's casual clothing">
+                    <button class="quick-btn">QUICK VIEW ↗</button>
+                </div>
+                <div class="product-details">
+                    <p class="brand">DAILY COMFORT</p>
+                    <h3>Premium Casual Tee</h3>
+                    <div class="product-bottom">
+                        <p class="price">₹899 <del>₹1,199</del></p>
+                        <span>★ 4.6</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="promo">
+        <div class="promo-image">
+            <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=85" alt="Men's fashion collection">
+        </div>
+
+        <div class="promo-content">
+            <p class="section-tag">THE WEEKEND EDIT</p>
+            <h2>Less ordinary.<br><span>More you.</span></h2>
+            <p>Upgrade your everyday wardrobe with pieces that feel as good as they look.</p>
+            <a href="#men" class="shop-btn">DISCOVER THE EDIT ↗</a>
+        </div>
+    </div>
+
+    <div class="products-section women-section section-padding" id="women">
+        <div class="section-heading">
+            <div>
+                <p class="section-tag">02 — WOMEN'S COLLECTION</p>
+                <h2>Own your <span>moment.</span></h2>
+            </div>
+            <a href="#newsletter" class="view-all">VIEW ALL ↗</a>
+        </div>
+
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="product-label">NEW</span>
+                    <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=85" alt="Women's modern fashion">
+                    <button class="quick-btn">QUICK VIEW ↗</button>
+                </div>
+                <div class="product-details">
+                    <p class="brand">MODERN WOMAN</p>
+                    <h3>Elegant Daily Outfit</h3>
+                    <div class="product-bottom">
+                        <p class="price">₹1,499 <del>₹1,899</del></p>
+                        <span>★ 4.8</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=800&q=85" alt="Women's casual dress">
+                    <button class="quick-btn">QUICK VIEW ↗</button>
+                </div>
+                <div class="product-details">
+                    <p class="brand">URBAN STYLE</p>
+                    <h3>Casual Fashion Dress</h3>
+                    <div class="product-bottom">
+                        <p class="price">₹1,799 <del>₹2,299</del></p>
+                        <span>★ 4.7</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="product-label">TRENDING</span>
+                    <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=85" alt="Women's summer style">
+                    <button class="quick-btn">QUICK VIEW ↗</button>
+                </div>
+                <div class="product-details">
+                    <p class="brand">SUMMER EDIT</p>
+                    <h3>Summer Collection</h3>
+                    <div class="product-bottom">
+                        <p class="price">₹1,299 <del>₹1,699</del></p>
+                        <span>★ 4.9</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=800&q=85" alt="Women's fashion outfit">
+                    <button class="quick-btn">QUICK VIEW ↗</button>
+                </div>
+                <div class="product-details">
+                    <p class="brand">CLASSIC COLLECTION</p>
+                    <h3>Timeless Fashion Wear</h3>
+                    <div class="product-bottom">
+                        <p class="price">₹1,599 <del>₹1,999</del></p>
+                        <span>★ 4.6</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accessories section-padding" id="accessories">
+        <div class="section-heading">
+            <div>
+                <p class="section-tag">03 — FINISH THE LOOK</p>
+                <h2>Details make the <span>difference.</span></h2>
+            </div>
+        </div>
+
+        <div class="accessory-grid">
+            <div class="accessory-card">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=85" alt="Fashion watch">
+                <div>
+                    <h3>Watches</h3>
+                    <p>TIMELESS DETAILS</p>
+                </div>
+            </div>
+
+            <div class="accessory-card">
+                <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=85" alt="Fashion handbag">
+                <div>
+                    <h3>Bags</h3>
+                    <p>EVERYDAY ESSENTIALS</p>
+                </div>
+            </div>
+
+            <div class="accessory-card">
+                <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=85" alt="Fashion sunglasses">
+                <div>
+                    <h3>Sunglasses</h3>
+                    <p>MAKE A STATEMENT</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="why-shoplane section-padding" id="about">
+        <div class="why-heading">
+            <p class="section-tag">WHY SHOPLANE</p>
+            <h2>Fashion that fits<br><span>your lifestyle.</span></h2>
+            <p>We believe fashion should be simple, comfortable and full of personality.</p>
+        </div>
+
+        <div class="why-container">
+            <div class="why-card">
+                <span>01</span>
+                <h3>Quality First</h3>
+                <p>Thoughtfully selected styles and materials for everyday comfort.</p>
+            </div>
+
+            <div class="why-card">
+                <span>02</span>
+                <h3>Modern Designs</h3>
+                <p>Fresh collections inspired by current fashion and timeless classics.</p>
+            </div>
+
+            <div class="why-card">
+                <span>03</span>
+                <h3>Easy Experience</h3>
+                <p>A simple way to discover your next favourite outfit.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="newsletter" id="newsletter">
+        <div>
+            <p class="section-tag">STAY IN STYLE</p>
+            <h2>Get the latest <span>updates.</span></h2>
+            <p>Discover new arrivals, fashion inspiration and special offers.</p>
+        </div>
+
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit">SUBSCRIBE ↗</button>
+        </form>
+    </div>
+
+    <footer class="footer">
         <div class="footer-container">
-
-            <!-- Online Store -->
-            <div class="footer-column">
-                <h3>ONLINE STORE</h3>
-
-                <a href="#">MEN CLOTHING</a>
-                <a href="#">WOMEN CLOTHING</a>
-                <a href="#">MEN ACCESSORIES</a>
-                <a href="#">WOMEN ACCESSORIES</a>
+            <div class="footer-about">
+                <a href="#" class="logo">SHOP<span>LANE.</span></a>
+                <p>Modern fashion for everyday living. Discover your style and make every outfit count.</p>
             </div>
 
-
-            <!-- Helpful Link -->
-            <div class="footer-column">
-                <h3>HELPFUL LINK</h3>
-
-                <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">CONTACT</a>
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#men">Men's Collection</a>
+                <a href="#women">Women's Collection</a>
+                <a href="#accessories">Accessories</a>
             </div>
 
-
-            <!-- Partners -->
-            <div class="footer-column">
-                <h3>PARTNERS</h3>
-
-                <a href="#">ZARA</a>
-                <a href="#">PANTALOONS</a>
-                <a href="#">LEVIS</a>
-                <a href="#">UCB</a>
-                <a href="#">+ MANY MORE</a>
+            <div class="footer-links">
+                <h3>Information</h3>
+                <a href="#about">About ShopLane</a>
+                <a href="#newsletter">Newsletter</a>
+                <a href="#home">New Arrivals</a>
+                <a href="#home">Collections</a>
             </div>
 
-
-            <!-- Address -->
-            <div class="footer-column address">
-                <h3>ADDRESS</h3>
-
-                <p>BUILDING 101</p>
-                <p>CENTRAL AVENUE</p>
-                <p>LA - 902722</p>
-                <p>UNITED STATES</p>
+            <div class="footer-links">
+                <h3>Contact</h3>
+                <a href="mailto:hello@example.com">Email Us</a>
+                <a href="#home">Instagram</a>
+                <a href="#home">Facebook</a>
+                <a href="#home">Help Center</a>
             </div>
-
         </div>
 
-
-        <!-- Copyright -->
-        <div class="copyright">
-            <span>© Syeda Laiba</span>
-            <span>|</span>
-            <span>SHOPLANE</span>
+        <div class="footer-bottom">
+            <p>© 2026 SHOPLANE. ALL RIGHTS RESERVED.</p>
+            <p>STYLE IS PERSONAL. MAKE IT YOURS.</p>
         </div>
-
     </footer>
+
 </body>
 </html>
